@@ -1,0 +1,13 @@
+{
+  "type": "content",
+  "modid": "toolsmithgeologypatch",
+  "name": "Toolsmith Geology Whetstone Patch",
+  "authors": ["MrFastZombie"],
+  "description": "Adds whetstones for Geology-related mods to Toolsmith.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game" : "1.21.0",
+    "toolsmith": "1.2.14"
+  }
+
+}

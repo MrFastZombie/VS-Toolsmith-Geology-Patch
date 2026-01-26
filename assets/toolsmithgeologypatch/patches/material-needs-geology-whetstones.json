@@ -1,0 +1,42 @@
+[
+    {
+		"file": "toolsmith:itemtypes/whetstone.json",
+		"op": "addmerge", 
+		"path": "/variantgroups/0/states",
+		"side": "server",
+		"value": ["komatiite", "monzonite", "pyroxenite", "serpentinite", "syenite"],
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+    {
+		"file": "toolsmith:recipes/knapping/whetstone.json",
+		"op": "addmerge", 
+		"path": "/0/ingredient/allowedVariants",
+		"side": "server",
+		"value": ["komatiite", "monzonite", "pyroxenite", "serpentinite", "syenite"],
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+    {
+		"file": "toolsmith:itemtypes/whetstone.json",
+		"op": "addmerge", 
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+            "*-komatiite": {
+                "stone": { "base": "game:block/stone/polishedrock/komatiite-inside" }
+            },
+            "*-monzonite": {
+                "stone": { "base": "game:block/stone/polishedrock/monzonite-inside" }
+            },
+            "*-pyroxenite": {
+                "stone": { "base": "game:block/stone/polishedrock/pyroxenite-inside" }
+            },
+            "*-serpentinite": {
+                "stone": { "base": "game:block/stone/polishedrock/serpentinite-inside" }
+            },
+            "*-syenite": {
+                "stone": { "base": "game:block/stone/polishedrock/syenite-inside" }
+            }
+        },
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	}
+]

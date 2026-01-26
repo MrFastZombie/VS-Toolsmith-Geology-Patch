@@ -1,0 +1,36 @@
+[
+    {
+		"file": "toolsmith:itemtypes/whetstone.json",
+		"op": "addmerge", 
+		"path": "/variantgroups/0/states",
+		"side": "server",
+		"value": ["diorite", "gabbro", "quartzite"],
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+    {
+		"file": "toolsmith:recipes/knapping/whetstone.json",
+		"op": "addmerge", 
+		"path": "/0/ingredient/allowedVariants",
+		"side": "server",
+		"value": ["diorite", "gabbro", "quartzite"],
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+    {
+		"file": "toolsmith:itemtypes/whetstone.json",
+		"op": "addmerge", 
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+            "*-diorite": {
+                "stone": { "base": "game:block/stone/polishedrock/diorite-inside" }
+            },
+            "*-gabbro": {
+                "stone": { "base": "game:block/stone/polishedrock/gabbro-inside" }
+            },
+            "*-quartzite": {
+                "stone": { "base": "game:block/stone/polishedrock/quartzite-inside" }
+            }
+        },
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	}
+]
