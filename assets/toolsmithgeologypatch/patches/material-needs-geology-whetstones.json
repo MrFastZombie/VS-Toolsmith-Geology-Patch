@@ -5,7 +5,7 @@
 		"path": "/variantgroups/0/states",
 		"side": "server",
 		"value": ["komatiite", "monzonite", "pyroxenite", "serpentinite", "syenite"],
-		"dependsOn": [ { "modid": "geoaddons" } ]
+		"dependsOn": [ { "modid": "mngeology" } ]
 	},
     {
 		"file": "toolsmith:recipes/knapping/whetstone.json",
@@ -13,7 +13,7 @@
 		"path": "/0/ingredient/allowedVariants",
 		"side": "server",
 		"value": ["komatiite", "monzonite", "pyroxenite", "serpentinite", "syenite"],
-		"dependsOn": [ { "modid": "geoaddons" } ]
+		"dependsOn": [ { "modid": "mngeology" } ]
 	},
     {
 		"file": "toolsmith:itemtypes/whetstone.json",
@@ -37,6 +37,6 @@
                 "stone": { "base": "game:block/stone/polishedrock/syenite-inside" }
             }
         },
-		"dependsOn": [ { "modid": "geoaddons" } ]
+		"dependsOn": [ { "modid": "mngeology" } ]
 	}
 ]
