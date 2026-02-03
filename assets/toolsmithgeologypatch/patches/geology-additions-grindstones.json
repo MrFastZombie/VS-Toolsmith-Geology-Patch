@@ -1,0 +1,70 @@
+[
+    {
+		"file": "toolsmith:blocktypes/grindstone.json",
+		"op": "addmerge",
+		"path": "/variantgroups/0/states",
+		"side": "server",
+		"value": ["diorite", "gabbro", "quartzite"],
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+	{
+		"file": "toolsmith:recipes/grid/grindstone.json",
+		"op": "addeach",
+		"path": "/0",
+		"side": "server",
+		"value": [
+            {
+                "ingredientPattern": "PSP,QQQ,Q_Q",
+                "ingredients": {
+                    "S": { "type": "block", "code": "game:rock-diorite" },
+                    "P": { "type": "item", "code": "game:plank-*" },
+                    "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+                },
+                "width": 3,
+                "height": 3,
+                "output": { "type": "block", "code": "toolsmith:grindstone-diorite-north", "quantity": 1 }
+            },
+            {
+                "ingredientPattern": "PSP,QQQ,Q_Q",
+                "ingredients": {
+                    "S": { "type": "block", "code": "game:rock-gabbro" },
+                    "P": { "type": "item", "code": "game:plank-*" },
+                    "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+                },
+                "width": 3,
+                "height": 3,
+                "output": { "type": "block", "code": "toolsmith:grindstone-gabbro-north", "quantity": 1 }
+            },
+            {
+                "ingredientPattern": "PSP,QQQ,Q_Q",
+                "ingredients": {
+                    "S": { "type": "block", "code": "game:rock-quartzite" },
+                    "P": { "type": "item", "code": "game:plank-*" },
+                    "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+                },
+                "width": 3,
+                "height": 3,
+                "output": { "type": "block", "code": "toolsmith:grindstone-quartzite-north", "quantity": 1 }
+            }
+		],
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+	{
+		"file": "toolsmith:blocktypes/grindstone.json",
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+            "*-diorite-*": {
+                "stone": { "base": "game:block/stone/polishedrock/diorite-inside" }
+            },
+            "*-gabbro-*": {
+                "stone": { "base": "game:block/stone/polishedrock/gabbro-inside" }
+            },
+            "*-quartzite-*": {
+                "stone": { "base": "game:block/stone/polishedrock/quartzite-inside" }
+            }
+        },
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	}
+]

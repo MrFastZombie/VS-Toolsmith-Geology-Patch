@@ -2,10 +2,18 @@
     "toolsmith:item-whetstone-diorite": "Diorite Whetstone",
     "toolsmith:item-whetstone-gabbro": "Gabbro Whetstone",
     "toolsmith:item-whetstone-quartzite": "Quartzite Whetstone",
+    "toolsmith:block-grindstone-diorite-north": "Diorite Grindstone",
+    "toolsmith:block-grindstone-gabbro-north": "Gabbro Grindstone",
+    "toolsmith:block-grindstone-quartzite-north": "Quartzite Grindstone",
 
     "toolsmith:item-whetstone-komatiite": "Komatiite Whetstone",
     "toolsmith:item-whetstone-monzonite": "Monzonite Whetstone",
     "toolsmith:item-whetstone-pyroxenite": "Pyroxenite Whetstone",
     "toolsmith:item-whetstone-serpentinite": "Serpentinite Whetstone",
-    "toolsmith:item-whetstone-syenite": "Syenite Whetstone"
+    "toolsmith:item-whetstone-syenite": "Syenite Whetstone",
+    "toolsmith:block-grindstone-komatiite-north": "Komatiite Grindstone",
+    "toolsmith:block-grindstone-monzonite-north": "Monzonite Grindstone",
+    "toolsmith:block-grindstone-pyroxenite-north": "Pyroxenite Grindstone",
+    "toolsmith:block-grindstone-serpentinite-north": "Serpentinite Grindstone",
+    "toolsmith:block-grindstone-syenite-north": "Syenite Grindstone"
 }

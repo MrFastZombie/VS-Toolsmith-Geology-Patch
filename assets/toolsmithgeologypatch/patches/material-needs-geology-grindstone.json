@@ -1,0 +1,98 @@
+[
+    {
+		"file": "toolsmith:blocktypes/grindstone.json",
+		"op": "addmerge",
+		"path": "/variantgroups/0/states",
+		"side": "server",
+		"value": ["komatiite", "monzonite", "pyroxenite", "serpentinite", "syenite"],
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+	{
+		"file": "toolsmith:recipes/grid/grindstone.json",
+		"op": "addeach",
+		"path": "/0",
+		"side": "server",
+		"value": [
+            {
+                "ingredientPattern": "PSP,QQQ,Q_Q",
+                "ingredients": {
+                    "S": { "type": "block", "code": "game:rock-komatiite" },
+                    "P": { "type": "item", "code": "game:plank-*" },
+                    "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+                },
+                "width": 3,
+                "height": 3,
+                "output": { "type": "block", "code": "toolsmith:grindstone-komatiite-north", "quantity": 1 }
+            },
+            {
+                "ingredientPattern": "PSP,QQQ,Q_Q",
+                "ingredients": {
+                    "S": { "type": "block", "code": "game:rock-monzonite" },
+                    "P": { "type": "item", "code": "game:plank-*" },
+                    "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+                },
+                "width": 3,
+                "height": 3,
+                "output": { "type": "block", "code": "toolsmith:grindstone-monzonite-north", "quantity": 1 }
+            },
+            {
+                "ingredientPattern": "PSP,QQQ,Q_Q",
+                "ingredients": {
+                    "S": { "type": "block", "code": "game:rock-pyroxenite" },
+                    "P": { "type": "item", "code": "game:plank-*" },
+                    "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+                },
+                "width": 3,
+                "height": 3,
+                "output": { "type": "block", "code": "toolsmith:grindstone-pyroxenite-north", "quantity": 1 }
+            },
+            {
+                "ingredientPattern": "PSP,QQQ,Q_Q",
+                "ingredients": {
+                    "S": { "type": "block", "code": "game:rock-serpentinite" },
+                    "P": { "type": "item", "code": "game:plank-*" },
+                    "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+                },
+                "width": 3,
+                "height": 3,
+                "output": { "type": "block", "code": "toolsmith:grindstone-serpentinite-north", "quantity": 1 }
+            },
+            {
+                "ingredientPattern": "PSP,QQQ,Q_Q",
+                "ingredients": {
+                    "S": { "type": "block", "code": "game:rock-syenite" },
+                    "P": { "type": "item", "code": "game:plank-*" },
+                    "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+                },
+                "width": 3,
+                "height": 3,
+                "output": { "type": "block", "code": "toolsmith:grindstone-syenite-north", "quantity": 1 }
+            },
+		],
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+	{
+		"file": "toolsmith:blocktypes/grindstone.json",
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+            "*-komatiite-*": {
+                "stone": { "base": "game:block/stone/polishedrock/komatiite-inside" }
+            },
+            "*-monzonite-*": {
+                "stone": { "base": "game:block/stone/polishedrock/monzonite-inside" }
+            },
+            "*-pyroxenite-*": {
+                "stone": { "base": "game:block/stone/polishedrock/pyroxenite-inside" }
+            },
+            "*-serpentinite-*": {
+                "stone": { "base": "game:block/stone/polishedrock/serpentinite-inside" }
+            },
+            "*-syenite-*": {
+                "stone": { "base": "game:block/stone/polishedrock/syenite-inside" }
+            }
+        },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	}
+]
