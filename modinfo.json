@@ -3,11 +3,11 @@
   "modid": "toolsmithgeologypatch",
   "name": "Toolsmith Geology Sharpening Patch",
   "authors": ["MrFastZombie"],
-  "description": "Adds whetstones and grindstones for Geology-related mods to Toolsmith.",
-  "version": "1.1.0",
+  "description": "Adds grindstones for Geology-related mods to Toolsmith.",
+  "version": "1.2.0",
   "dependencies": {
-    "game" : "1.21.0",
-    "toolsmith": "1.2.14"
+    "game" : "1.22.0",
+    "toolsmith": "1.2.15"
   }
 
 }

@@ -67,7 +67,7 @@
                 "width": 3,
                 "height": 3,
                 "output": { "type": "block", "code": "toolsmith:grindstone-syenite-north", "quantity": 1 }
-            },
+            }
 		],
 		"dependsOn": [ { "modid": "mngeology" } ]
 	},
